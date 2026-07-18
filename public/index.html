@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SBKV Test Sheet</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="topbar">
+    <button id="uploadBtn" class="btn btn-primary">⬆ Upload TXT File(s)</button>
+    <input type="file" id="fileInput" multiple accept=".txt" hidden />
+    <button id="saveBtn" class="btn btn-primary">💾 Save Changes</button>
+    <span id="statusLabel">0 file(s) loaded</span>
+    <button id="resetBtn" class="btn btn-dark" style="margin-left:auto;">⟲ Reset</button>
+  </div>
+
+  <div id="info">
+    <div>Part no&nbsp; KMIV.402113.002-01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sl.No.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; J.O.No.</div>
+    <div>Document No. KMIV.402113.002-01RK&nbsp;&nbsp; Document Issue No. NIL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Project: SBKV</div>
+  </div>
+
+  <div id="tableWrap">
+    <table id="sheet"></table>
+  </div>
+
+  <div id="sig">
+    <div><b>Signature</b></div>
+    <div>Prepared By: Sweta &nbsp;&nbsp;&nbsp;&nbsp; Shop</div>
+    <div>Approved By: G Chandra &nbsp; QC</div>
+  </div>
+
+  <div id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
